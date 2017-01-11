@@ -18,7 +18,7 @@ header{
 		border: 2px solid #AAAAAA;
 		background-color: #555555;
 		border-radius: 10px;
-        transition: 0.1s;
+        transition: 0.05s;
 		height: 100px;
 		width: 100px;
 		float: left;
@@ -26,9 +26,8 @@ header{
 }
 
 .seleccionada{
-        background-color: #888888;
         box-shadow: 0px 0px 10px #66AAFF;
-        transform: scale(1.1,1.1);
+        transform: scale(1.05);
 }
 
 h1{
