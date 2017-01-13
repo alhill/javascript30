@@ -1,0 +1,58 @@
+body{
+    display:block;
+    background-image: url("background.jpg");
+    height: 100vh;
+    width: 100vw;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    overflow: hidden;
+}
+
+#clockcircle{
+    height: 30vw;
+    width: 30vw;
+    position: relative;
+    left: 35%;
+    margin-top: 10vw;
+    border: 6px solid #88AAFF;
+    border-radius: 100%;
+    background-color: RGBA(200,225,255,0.1);
+}
+
+#hours{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 9vw;
+    border: 5px solid white;
+    transform: rotate(-90deg);
+    transform-origin: 0%;
+    transition: 0.1s cubic-bezier(1, 0.33, 1, 2.43);
+    background-color: white;
+}
+
+#minutes{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12vw;
+    border: 5px solid white;
+    transform: rotate(-90deg);
+    transform-origin: 0%;
+    transition: 0.1s cubic-bezier(1, 0.33, 1, 2.43);
+    background-color: white;
+}
+
+#seconds{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 13vw;
+    border: 2px solid white;
+    transform: rotate(-90deg);
+    transform-origin: 0%;
+    transition: 0.1s cubic-bezier(1, 0.33, 1, 2.43);
+    background-color: white;
+}
