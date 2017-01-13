@@ -16,8 +16,8 @@ function moveHands(h,m,s){
     if(h>=12){h-=12;} 
     
     h_angle = ((h/12)*360)-90;
-    m_angle = ((m/60)*360)-90;
-    s_angle = ((s/60)*360)-90;
+    m_angle = ((((60*h)+m)/60)*360)-90;
+    s_angle = ((((60*m)+s)/60)*360)-90;
     
     h_hand.style.transform = "rotate("+h_angle+"deg)";
     m_hand.style.transform = "rotate("+m_angle+"deg)";

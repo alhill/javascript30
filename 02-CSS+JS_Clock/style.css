@@ -24,9 +24,9 @@ body{
 
 #axe{
     position: absolute;
-    border: 1vw solid RGBA(60,60,60,0.9);
+    border: 1vw solid RGBA(136,170,255,0.0);
     border-radius: 100%;
-    top: 47%;
+    top: 48%;
     left: 47%;
     z-index: 100;
 }
@@ -35,7 +35,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 9vw;
+    width: 20%;
     border: 5px solid white;
     transform: rotate(-90deg);
     transform-origin: 0%;
@@ -48,7 +48,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 12vw;
+    width: 40%;
     border: 5px solid white;
     transform: rotate(-90deg);
     transform-origin: 0%;
@@ -61,7 +61,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 13vw;
+    width: 45%;
     border: 2px solid red;
     transform: rotate(-90deg);
     transform-origin: 0%;
